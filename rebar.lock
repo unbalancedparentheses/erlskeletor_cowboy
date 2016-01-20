@@ -1,0 +1,12 @@
+[{<<"cowboy">>,
+  {git,"https://github.com/ninenines/cowboy",
+       {ref,"dbb636034f20736e16eb9d6c809217c9525b6cbd"}},
+  0},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"d0cd6dcb338425a24f85f37ab1ba6d9aeaca89bb"}},
+  1},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"741bfb73ca663394ecf7a73410506d66f01985a6"}},
+  1}].
