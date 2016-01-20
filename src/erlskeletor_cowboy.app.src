@@ -1,5 +1,5 @@
 {application, erlskeletor_cowboy,
- [{description, "An OTP application"},
+ [{description, "An erlang cowboy skeleton"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {erlskeletor_cowboy_app, []}},
