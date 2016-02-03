@@ -1,4 +1,4 @@
--module(erlskeletor_cowboy_app).
+-module(erlskelc_app).
 -behaviour(application).
 
 -export([
@@ -17,7 +17,7 @@ start(_StartType, _StartArgs) ->
     {ok, _} = cowboy:start_http(http, 100, [{port, 8080}], [
                                                             {env, [{dispatch, Dispatch}]}
                                                            ]),
-    erlskeletor_cowboy_sup:start_link().
+    erlskelc_sup:start_link().
 
 
 stop(_State) ->

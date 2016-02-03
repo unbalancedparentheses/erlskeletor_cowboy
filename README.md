@@ -1,4 +1,4 @@
-erlskeletor_cowboy
+erlskelc
 =====
 
 An OTP application
