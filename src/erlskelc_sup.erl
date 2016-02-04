@@ -1,4 +1,4 @@
--module(erlskeletor_cowboy_sup).
+-module(erlskelc_sup).
 -behaviour(supervisor).
 
 -export([
