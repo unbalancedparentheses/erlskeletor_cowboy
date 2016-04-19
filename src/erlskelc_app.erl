@@ -19,6 +19,5 @@ start(_StartType, _StartArgs) ->
                                                            ]),
     erlskelc_sup:start_link().
 
-
 stop(_State) ->
     ok.
